@@ -1,0 +1,132 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+#wrapper{
+    display:flex;
+    height:100vh;
+}
+
+#left{
+    background-color:black;
+    width:40%;
+}
+
+.logo{
+    text-align:center;
+    padding-top:13%;
+}
+
+form{
+    color:gray;
+    text-align:center;
+    padding-top:5%;
+}
+
+label{
+    display:block;
+    padding-bottom:5px;
+    text-align:center;
+    margin-left:20%;
+    text-align:left;
+    margin-top:15px;
+}
+
+input{
+    background:transparent;
+    border:0.5px solid gray;
+    width:60%;
+    padding-top:10px;
+    border-radius:3px;
+    color:white;
+}
+
+.primary-btn{
+    width:60%;
+    color:white;
+    background:#24a0ed;
+    padding:7px;
+    margin-top:15px;
+    outline:none;
+    border:none;
+}
+
+#links{
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    padding-top:30px;
+}
+
+#links a{
+    text-decoration: none;
+    padding-bottom:10px;
+    color:blue;
+}
+
+.bar{
+    width:60%;
+    margin:auto;
+    color:gray;
+}
+
+.secondary-btn{
+    margin-top: 30px;
+    padding: 7px;
+    color:white;
+    background:gray;
+    outline:none;
+    width:60%;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
+    text-decoration: none;
+}
+
+#main-footer{
+    color:gray;
+    text-align:center;
+    font-size:smaller;
+    margin-top:20%
+}
+
+footer a{
+    color:gray;
+}
+
+#right{
+    background-image: url("../src/login-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:60%;
+}
+
+.showcase-text{
+    text-align:center;
+    color:white;
+    font-size:45px;
+    font-weight: lighter;
+}
+
+#showcase{
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+strong{
+    font-weight: bold;
+}
+
+#showcase-text{
+    width:80%;
+}
+
+#showcase-content a{
+    width:40%;
+}
